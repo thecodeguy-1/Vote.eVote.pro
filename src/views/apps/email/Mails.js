@@ -129,7 +129,7 @@ const Mails = props => {
             <InputGroup className='input-group-merge'>
               <InputGroupAddon addonType='prepend'>
                 <InputGroupText>
-                  <Search className='text-muted' size={14} />
+                  <Search className='text-muted' size={64} />
                 </InputGroupText>
               </InputGroupAddon>
               <Input
@@ -138,6 +138,7 @@ const Mails = props => {
                 value={query}
                 onChange={e => setQuery(e.target.value)}
               />
+              kk
             </InputGroup>
           </div>
         </div>
@@ -150,6 +151,7 @@ const Mails = props => {
               onChange={handleSelectAll}
               checked={selectedMails.length && selectedMails.length === mails.length}
             />
+            ;dskfjbaslhfvbzslhfbaleshgfoidgfliaegfvpaiuh
           </div>
           {selectedMails.length ? (
             <div className='action-right'>

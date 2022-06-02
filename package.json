@@ -43,6 +43,7 @@
     "leaflet": "1.6.0",
     "mdb-react-ui-kit": "^3.0.0",
     "mdb-ui-kit": "^4.1.0",
+    "mdbreact": "^5.2.0",
     "moment": "2.29.1",
     "nouislider": "14.6.2",
     "nouislider-react": "3.3.8",

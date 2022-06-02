@@ -27,19 +27,10 @@ const ThemeNavbar = props => {
   return (
     
     <Fragment>
-      <div className='bookmark-wrapper d-flex align-items-center' style={{width : '45%', justifyContent:'space-between'}}>
+      <div className=' d-flex align-items-center' style={{width : '45%', justifyContent:'space-between'}}>
       <span style={{fontWeight:'bold'}}>Endocrine Socity Of India 2022</span>
       </div>
       <ul className='nav navbar-nav align-items-center ml-auto'>
-        {/* <IntlDropdown /> */}
-        <NavItem className='d-none d-lg-block'>
-          <NavLink className='nav-link-style'>
-            <ThemeToggler />
-          </NavLink>
-        </NavItem>
-        {/* <NavbarSearch />
-        <CartDropdown />
-        <NotificationDropdown /> */}
         <UserDropdown />
       </ul>
     </Fragment>

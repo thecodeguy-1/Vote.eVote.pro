@@ -98,7 +98,8 @@ const MailDetails = props => {
       <Card>
         <CardHeader className='email-detail-head'>
           <div className='user-details d-flex justify-content-between align-items-center flex-wrap'>
-            <Avatar img={obj.from.avatar} className='mr-75' imgHeight='48' imgWidth='48' />
+            <Avatar img={obj.from.avatar} className='mr-75' imgHeight='148' imgWidth='48' />
+           <h1></h1>
             <div className='mail-items'>
               <h5 className='mb-0'>{obj.from.name}</h5>
               <UncontrolledDropdown className='email-info-dropup'>
@@ -132,7 +133,7 @@ const MailDetails = props => {
             <small className='mail-date-time text-muted'>{formatDate(obj.time)}</small>
             <UncontrolledDropdown className='ml-50'>
               <DropdownToggle className='cursor-pointer' tag='span'>
-                <MoreVertical size={14} />
+                <MoreVertical size={64} />
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem className='d-flex align-items-center w-100'>

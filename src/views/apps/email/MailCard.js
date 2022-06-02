@@ -39,17 +39,6 @@ const MailCard = props => {
       <div className='media-left pr-50'>
         <Avatar img={mail.from.avatar} />
         <div className='user-action'>
-          {/* <CustomInput
-            label=''
-            type='checkbox'
-            checked={selectedMails.includes(mail.id)}
-            id={`${mail.from.name}-${mail.id}`}
-            onChange={e => e.stopPropagation()}
-            onClick={e => {
-              dispatch(selectMail(mail.id))
-              e.stopPropagation()
-            }}
-          /> */}
           <div className='custom-control custom-checkbox'>
             <input
               className='custom-control-input'
@@ -62,13 +51,6 @@ const MailCard = props => {
                 e.stopPropagation()
               }}
             />
-            <label
-              className='custom-control-label'
-              htmlFor={`${mail.from.name}-${mail.id}`}
-              onClick={e => {
-                e.stopPropagation()
-              }}
-            ></label>
           </div>
           <div
             className='email-favorite'

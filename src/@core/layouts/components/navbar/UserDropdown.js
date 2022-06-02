@@ -43,9 +43,9 @@ const UserDropdown = () => {
           {/* <span className='user-name font-weight-bold'>{(userData && userData['username']) || 'Srikanth Thallapally'}</span> */}
           <span className='user-name font-weight-bold'>Srikanth Thallapally</span>
           {/* <span className='user-status'>{(userData && userData.role) || 'Election Officer'}</span> */}
-          <span className='user-status'>Election Officer</span>
+          <span className='user-status'>ECG-31</span>
         </div>
-        <Avatar img={userAvatar} imgHeight='40' imgWidth='40' status='online' />
+        <Settings />
       </DropdownToggle>
       <DropdownMenu right>
         {/* <DropdownItem tag={Link} to='/pages/profile'>

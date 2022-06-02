@@ -30,6 +30,33 @@ const PageLayoutRoutes = [
     }
   },
   {
+    path: '/FrontEnd/ballot',
+    component: lazy(() => import('../../views/FrontEnd/ballot')),
+    meta: {
+      menuHidden: true
+    }
+  },
+  {
+    path: '/FrontEnd/instructions',
+    component: lazy(() => import('../../views/FrontEnd/instructions')),
+    layout: 'BlankLayout'
+  },
+  {
+    path: '/FrontEnd/login',
+    component: lazy(() => import('../../views/FrontEnd/login')),
+    layout: 'BlankLayout'
+  },
+  {
+    path: '/FrontEnd/otp',
+    component: lazy(() => import('../../views/FrontEnd/UserOtp')),
+    layout: 'BlankLayout'
+  },
+  {
+    path: '/FrontEnd/results',
+    component: lazy(() => import('../../views/FrontEnd/Results')),
+    layout: 'BlankLayout'
+  },
+  {
     path: '/page-layout/layout-empty',
     component: lazy(() => import('../../views/ui-elements/page-layouts/LayoutEmpty'))
   },

@@ -202,10 +202,6 @@ const AppRoutes = [
     meta: {
       navLink: '/apps/user/view'
     }
-  },
-  {
-    path: '/frontenda/selcards',
-    component: lazy(() => import('../../views/frontenda/selcards'))
   }
 ]
 

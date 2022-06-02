@@ -25,3 +25,8 @@ yarn-error.log*
 .docz
 .eslintcache
 .vscode
+#files
+
+# git
+
+/apps
