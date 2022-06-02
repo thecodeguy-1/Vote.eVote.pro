@@ -13,7 +13,7 @@ import PageLayoutsRoutes from './PageLayouts'
 const TemplateTitle = '%s - Vuexy React Admin Template'
 
 // ** Default Route
-const DefaultRoute = '/page-layout/home'
+const DefaultRoute = '/Frontend/instructions'
 
 // ** Merge Routes
 const Routes = [
