@@ -7,3 +7,24 @@
 .footer-logos div{
  margin: 0px 20px;
 }
+.login-footer-info {
+    background: #FFF;
+    padding: 15px;
+    border-top: 1px solid #333333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.login-footer-info .max-width {
+    width: 1140px;
+    margin: 0 auto;
+}
+.login-footer-info .lft {
+    float: left;
+}
+.login-footer-info .rgt {
+    float: right;
+}

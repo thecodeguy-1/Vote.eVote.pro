@@ -146,7 +146,7 @@ const AddCard = () => {
        <img style={{margin:'auto', display:'block'}} src={check}></img>
        <div style={{textAlign:'center'}}>
          <h1 style={{fontWeight:'bold'}}>Thank You For Voting!</h1>
-         <h4> Your Vote are successfully submitted, On <span style={{fontWeight:'bold'}}>31-05-2022 4:36(PM)</span>, From <span style={{fontWeight:'bold'}}> 192.158. 1.38.</span> IP addresses and Device Id :<span style={{fontWeight:'bold'}}>android-20013fea6bcc820c</span></h4>
+         <h4> Your vote is successfully submitted, on <span style={{fontWeight:'bold'}}>31-05-2022 4:36(PM)</span><br></br> From IP addresses <span style={{fontWeight:'bold'}}> 192.158. 1.38.</span> <br></br> Device Id :<span style={{fontWeight:'bold'}}>android-20013fea6bcc820c</span></h4>
        </div>
         </CardBody>
         {/* /Header */}

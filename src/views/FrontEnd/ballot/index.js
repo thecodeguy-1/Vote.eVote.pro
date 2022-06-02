@@ -1,6 +1,8 @@
-import { useState } from 'react'
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Alert, Card, Container, Row, Col } from 'reactstrap'
+// ** Styles
+import '@styles/react/libs/flatpickr/flatpickr.scss'
+import '@styles/base/pages/app-invoice.scss'
 import './card.css'
+import Container from 'reactstrap/lib/Container'
 import CardAppDesign from './CardAppDesign'
 const Scard = () => {
 
@@ -8,7 +10,7 @@ const Scard = () => {
         <>
         <Container>
         <CardAppDesign/> 
-        </Container>  
+        </Container>
      </>
     )
 }

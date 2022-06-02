@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/src/views/apps
 /.pnp
 .pnp.js
 
@@ -29,4 +30,4 @@ yarn-error.log*
 
 # git
 
-/apps
+/src/views/apps

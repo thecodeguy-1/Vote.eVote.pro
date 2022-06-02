@@ -154,23 +154,23 @@ const AddCard = () => {
               <Input type='text' placeholder='Expo-031' />
             </Col>
           </FormGroup>
-            <h6 style={{fontWeight:'bold'}}>Enter your mobile number we will sent you OTP to verify<span>*</span></h6>
+            <h6 style={{fontWeight:'bold'}}>Mobile Number<span>*</span></h6>
 
           <FormGroup row>
             {/* <Label sm='3' for='Email'>
               Mobile
             </Label> */}
             <Col sm='9'>
-              <Input type='text' name='Email' id='Email' placeholder='mobile' />
+              <Input type='text' name='Email' id='Email' placeholder='Mobile Number' />
             </Col>
           </FormGroup>
-          <h6 style={{fontWeight:'bold'}}>Enter your  Email we will sent you Link to verify<span>*</span></h6>
+          <h6 style={{fontWeight:'bold'}}> Email Id<span>*</span></h6>
           <FormGroup row>
             {/* <Label sm='3' for='Email'>
               Mobile
             </Label> */}
             <Col sm='9'>
-              <Input type='text' name='Email' id='Email' placeholder='mobile' />
+              <Input type='text' name='Email' id='Email' placeholder='Email Id' />
             </Col>
           </FormGroup>
         </Form></Col>
@@ -180,7 +180,7 @@ const AddCard = () => {
         {/* /Header */}
         <div className='button-div'>
         <Link to='/FrontEnd/otp'>
-        <Button.Ripple  className='instruction-button' color='primary'>continue</Button.Ripple>
+        <Button.Ripple  className='instruction-button' color='primary'>Procced to OTP process</Button.Ripple>
         </Link>
         </div>
       </Card>

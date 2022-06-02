@@ -151,7 +151,7 @@ const AddCard = () => {
             Membership Number
             </Label> */}
             <Col sm='9'>
-              <Input type='text' placeholder='User@demo.com' />
+              <Input type='text' placeholder='Enter OTP' />
             </Col>
             </FormGroup>
             <img src={Captcha} width='300'></img>
@@ -162,7 +162,7 @@ const AddCard = () => {
         {/* /Header */}
         <div className='button-div'>
         <Link to='/FrontEnd/ballot'>
-        <Button.Ripple  className='instruction-button' color='primary'> Proceed to OTP Process </Button.Ripple>
+        <Button.Ripple  className='instruction-button' color='primary'> Proceed to Election </Button.Ripple>
         </Link>
         </div>
       </Card>

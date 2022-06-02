@@ -22,6 +22,7 @@ import { Star, Paperclip, User, AlertCircle } from "react-feather"
 import Cadidate from "@src/assets/images/portrait/small/avatar-s-9.jpg"
 import { Link } from "react-router-dom"
 
+
 const CardAppDesign = () => {
   const [openModal, setOpenModal] = useState(false)
   const avatarArr = [
@@ -220,6 +221,7 @@ const CardAppDesign = () => {
           </div>
         </CardBody>
       </Card>
+    
       <div className='button-div'>
         <Link to='/FrontEnd/Results'>
         <Button.Ripple style={{margin:'auto', display:'block'}}  className='instruction-button' color='primary'>submit</Button.Ripple>
